@@ -1,11 +1,31 @@
 # Sample Snack app
+Overview
+This repository contains a React Native application that recreates the design seen in the provided UI mockup. The app consists of a login screen and a home screen, featuring popular and featured job cards.
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
-
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
-
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
-
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
-
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+Components
+Login Screen
+LoginScreen.js: A functional component that accepts user input (name and email) and passes it to the home screen upon pressing the login button.
+Home Screen
+HomeScreen.js: A functional component that displays the user's name and email, and features popular and featured job cards.
+JobCard.js: A custom component that accepts a props object containing card details (e.g., title, description, image). Used to display job cards in the popular and featured sections.
+Job Cards
+PopularJobs.js: A functional component that displays at least 8 popular job cards using the JobCard component.
+FeaturedJobs.js: A functional component that displays at least 8 featured job cards using the JobCard component.
+Usage
+Running the App
+Clone the repository to your local machine.
+Run npm install to install dependencies.
+Run npx react-native start to start the development server.
+Run npx react-native run-ios or npx react-native run-android to launch the app on a simulator or physical device.
+Customizing the App
+To customize the app's design, modify the styles in the styles folder.
+To add or modify job cards, update the data in the data folder.
+Resources
+UI Design: [insert link to UI Design]
+Figma Resources: [insert link to Figma file]
+Commit History
+Commit 1: Initial setup and login screen implementation
+Commit 2: Home screen implementation and job card component creation
+Commit 3: Popular and featured job cards implementation
+Commit 4: Final styling and polishing
+(!!["alt 20240619_221013.png"]("20240619_221013.png"screenshot of mockup))

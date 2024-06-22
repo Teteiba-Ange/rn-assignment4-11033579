@@ -12,8 +12,8 @@ const Homepage=()=>{
     <View style={styles.Homepage}>
      <Image source={require('./components/iPhone X (or newer).png')}  />
      <View style={styles.HomepageG}>
-    <Text style={styles.Homepagehead}>Eric Atsu  </Text>
-    <Text style={styles.Homepagemuted}>eric@gmail.com</Text>
+    <Text style={styles.Homepagehead}>Angela Acquah  </Text>
+    <Text style={styles.Homepagemuted}>angelateteiba11@gmail.com</Text>
      <Text style={styles.HomepageImage} ><Image  source={require('./Ellipse.png')}/></Text> 
     </View>
     <View style={styles.searchInput}>

@@ -37,6 +37,7 @@ import {useState} from 'react';
          )}
     
      <Image  source={require('./Group 52.png')}  style={styles.logincontainerTexttwomuted}/></View>
+     <Image source={require('../Group 57 (1).png')}/>
  </View>  
    );
  }
